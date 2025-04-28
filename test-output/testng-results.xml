@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="13" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-28T21:32:19 IST" name="Default suite" finished-at="2025-04-28T21:33:54 IST" duration-ms="95346">
+    <groups>
+    </groups>
+    <test started-at="2025-04-28T21:32:19 IST" name="Default test" finished-at="2025-04-28T21:33:54 IST" duration-ms="95346">
+      <class name="testcases.LoginTest">
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:testcases.LoginTest@a1153bc]" started-at="2025-04-28T21:32:19 IST" name="setUpBrowser" finished-at="2025-04-28T21:32:26 IST" duration-ms="6892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:testcases.LoginTest@a1153bc]" started-at="2025-04-28T21:32:26 IST" name="initPage" finished-at="2025-04-28T21:32:29 IST" duration-ms="3478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="TC01_VerifyAllFieldsDisplayed()[pri:1, instance:testcases.LoginTest@a1153bc]" started-at="2025-04-28T21:32:29 IST" name="TC01_VerifyAllFieldsDisplayed" finished-at="2025-04-28T21:32:29 IST" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_VerifyAllFieldsDisplayed -->
+        <test-method is-config="true" signature="afterEachTest()[pri:0, instance:testcases.LoginTest@a1153bc]" started-at="2025-04-28T21:32:29 IST" name="afterEachTest" finished-at="2025-04-28T21:32:30 IST" duration-ms="465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:testcases.LoginTest@a1153bc]" started-at="2025-04-28T21:32:30 IST" name="initPage" finished-at="2025-04-28T21:32:33 IST" duration-ms="3521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="TC02_VerifyPlaceholderText()[pri:2, instance:testcases.LoginTest@a1153bc]" started-at="2025-04-28T21:32:33 IST" name="TC02_VerifyPlaceholderText" finished-at="2025-04-28T21:32:34 IST" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_VerifyPlaceholderText -->
+        <test-method is-config="true" signature="afterEachTest()[pri:0, instance:testcases.LoginTest@a1153bc]" started-at="2025-04-28T21:32:34 IST" name="afterEachTest" finished-at="2025-04-28T21:32:34 IST" duration-ms="463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:testcases.LoginTest@a1153bc]" started-at="2025-04-28T21:32:34 IST" name="initPage" finished-at="2025-04-28T21:32:38 IST" duration-ms="3561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="TC03_LoginWithValidCredentials()[pri:3, instance:testcases.LoginTest@a1153bc]" started-at="2025-04-28T21:32:38 IST" name="TC03_LoginWithValidCredentials" finished-at="2025-04-28T21:32:41 IST" duration-ms="2993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03_LoginWithValidCredentials -->
+        <test-method is-config="true" signature="afterEachTest()[pri:0, instance:testcases.LoginTest@a1153bc]" started-at="2025-04-28T21:32:41 IST" name="afterEachTest" finished-at="2025-04-28T21:32:43 IST" duration-ms="2122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:testcases.LoginTest@a1153bc]" started-at="2025-04-28T21:32:43 IST" name="initPage" finished-at="2025-04-28T21:32:46 IST" duration-ms="3454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="TC04_LoginWithInvalidCredentials()[pri:4, instance:testcases.LoginTest@a1153bc]" started-at="2025-04-28T21:32:46 IST" name="TC04_LoginWithInvalidCredentials" finished-at="2025-04-28T21:32:47 IST" duration-ms="1288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04_LoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="afterEachTest()[pri:0, instance:testcases.LoginTest@a1153bc]" started-at="2025-04-28T21:32:47 IST" name="afterEachTest" finished-at="2025-04-28T21:32:48 IST" duration-ms="460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:testcases.LoginTest@a1153bc]" started-at="2025-04-28T21:32:48 IST" name="initPage" finished-at="2025-04-28T21:32:51 IST" duration-ms="3606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="TC05_LoginWithEmptyFields()[pri:5, instance:testcases.LoginTest@a1153bc]" started-at="2025-04-28T21:32:51 IST" name="TC05_LoginWithEmptyFields" finished-at="2025-04-28T21:32:52 IST" duration-ms="393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC05_LoginWithEmptyFields -->
+        <test-method is-config="true" signature="afterEachTest()[pri:0, instance:testcases.LoginTest@a1153bc]" started-at="2025-04-28T21:32:52 IST" name="afterEachTest" finished-at="2025-04-28T21:32:52 IST" duration-ms="459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:testcases.LoginTest@a1153bc]" started-at="2025-04-28T21:32:52 IST" name="initPage" finished-at="2025-04-28T21:32:56 IST" duration-ms="3650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="TC06_LoginWithEmptyUsername()[pri:6, instance:testcases.LoginTest@a1153bc]" started-at="2025-04-28T21:32:56 IST" name="TC06_LoginWithEmptyUsername" finished-at="2025-04-28T21:32:56 IST" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC06_LoginWithEmptyUsername -->
+        <test-method is-config="true" signature="afterEachTest()[pri:0, instance:testcases.LoginTest@a1153bc]" started-at="2025-04-28T21:32:56 IST" name="afterEachTest" finished-at="2025-04-28T21:32:57 IST" duration-ms="481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:testcases.LoginTest@a1153bc]" started-at="2025-04-28T21:32:57 IST" name="initPage" finished-at="2025-04-28T21:33:00 IST" duration-ms="3460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="TC07_LoginWithEmptyPassword()[pri:7, instance:testcases.LoginTest@a1153bc]" started-at="2025-04-28T21:33:00 IST" name="TC07_LoginWithEmptyPassword" finished-at="2025-04-28T21:33:01 IST" duration-ms="455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC07_LoginWithEmptyPassword -->
+        <test-method is-config="true" signature="afterEachTest()[pri:0, instance:testcases.LoginTest@a1153bc]" started-at="2025-04-28T21:33:01 IST" name="afterEachTest" finished-at="2025-04-28T21:33:01 IST" duration-ms="494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:testcases.LoginTest@a1153bc]" started-at="2025-04-28T21:33:01 IST" name="initPage" finished-at="2025-04-28T21:33:05 IST" duration-ms="3485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="TC08_VerifyPasswordMasked()[pri:8, instance:testcases.LoginTest@a1153bc]" started-at="2025-04-28T21:33:05 IST" name="TC08_VerifyPasswordMasked" finished-at="2025-04-28T21:33:05 IST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC08_VerifyPasswordMasked -->
+        <test-method is-config="true" signature="afterEachTest()[pri:0, instance:testcases.LoginTest@a1153bc]" started-at="2025-04-28T21:33:05 IST" name="afterEachTest" finished-at="2025-04-28T21:33:05 IST" duration-ms="456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:testcases.LoginTest@a1153bc]" started-at="2025-04-28T21:33:05 IST" name="initPage" finished-at="2025-04-28T21:33:09 IST" duration-ms="3451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="TC09_RememberMeCheckboxFunctionality()[pri:9, instance:testcases.LoginTest@a1153bc]" started-at="2025-04-28T21:33:09 IST" name="TC09_RememberMeCheckboxFunctionality" finished-at="2025-04-28T21:33:15 IST" duration-ms="5952" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Username is not remembered expected [abhilasha01] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Username is not remembered expected [abhilasha01] but found []
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at testcases.LoginTest.TC09_RememberMeCheckboxFunctionality(LoginTest.java:109)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC09_RememberMeCheckboxFunctionality -->
+        <test-method is-config="true" signature="afterEachTest()[pri:0, instance:testcases.LoginTest@a1153bc]" started-at="2025-04-28T21:33:15 IST" name="afterEachTest" finished-at="2025-04-28T21:33:15 IST" duration-ms="458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:testcases.LoginTest@a1153bc]" started-at="2025-04-28T21:33:15 IST" name="initPage" finished-at="2025-04-28T21:33:19 IST" duration-ms="3459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="TC10_LoginWithoutSelectingRememberMe()[pri:10, instance:testcases.LoginTest@a1153bc]" started-at="2025-04-28T21:33:19 IST" name="TC10_LoginWithoutSelectingRememberMe" finished-at="2025-04-28T21:33:26 IST" duration-ms="6947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC10_LoginWithoutSelectingRememberMe -->
+        <test-method is-config="true" signature="afterEachTest()[pri:0, instance:testcases.LoginTest@a1153bc]" started-at="2025-04-28T21:33:26 IST" name="afterEachTest" finished-at="2025-04-28T21:33:26 IST" duration-ms="467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:testcases.LoginTest@a1153bc]" started-at="2025-04-28T21:33:26 IST" name="initPage" finished-at="2025-04-28T21:33:30 IST" duration-ms="3454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="TC13_VerifyErrorMessageDisappearsAfterCorrectingInput()[pri:11, instance:testcases.LoginTest@a1153bc]" started-at="2025-04-28T21:33:30 IST" name="TC13_VerifyErrorMessageDisappearsAfterCorrectingInput" finished-at="2025-04-28T21:33:36 IST" duration-ms="6487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC13_VerifyErrorMessageDisappearsAfterCorrectingInput -->
+        <test-method is-config="true" signature="afterEachTest()[pri:0, instance:testcases.LoginTest@a1153bc]" started-at="2025-04-28T21:33:36 IST" name="afterEachTest" finished-at="2025-04-28T21:33:37 IST" duration-ms="1158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:testcases.LoginTest@a1153bc]" started-at="2025-04-28T21:33:37 IST" name="initPage" finished-at="2025-04-28T21:33:41 IST" duration-ms="3459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="TC14_VerifyCheckboxDefaultState()[pri:12, instance:testcases.LoginTest@a1153bc]" started-at="2025-04-28T21:33:41 IST" name="TC14_VerifyCheckboxDefaultState" finished-at="2025-04-28T21:33:41 IST" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC14_VerifyCheckboxDefaultState -->
+        <test-method is-config="true" signature="afterEachTest()[pri:0, instance:testcases.LoginTest@a1153bc]" started-at="2025-04-28T21:33:41 IST" name="afterEachTest" finished-at="2025-04-28T21:33:41 IST" duration-ms="463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:testcases.LoginTest@a1153bc]" started-at="2025-04-28T21:33:41 IST" name="initPage" finished-at="2025-04-28T21:33:45 IST" duration-ms="3559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="TC17_VerifyLoginWithSpacesBeforeAfterUsername()[pri:13, instance:testcases.LoginTest@a1153bc]" started-at="2025-04-28T21:33:45 IST" name="TC17_VerifyLoginWithSpacesBeforeAfterUsername" finished-at="2025-04-28T21:33:47 IST" duration-ms="1875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC17_VerifyLoginWithSpacesBeforeAfterUsername -->
+        <test-method is-config="true" signature="afterEachTest()[pri:0, instance:testcases.LoginTest@a1153bc]" started-at="2025-04-28T21:33:47 IST" name="afterEachTest" finished-at="2025-04-28T21:33:48 IST" duration-ms="1635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method is-config="true" signature="initPage()[pri:0, instance:testcases.LoginTest@a1153bc]" started-at="2025-04-28T21:33:48 IST" name="initPage" finished-at="2025-04-28T21:33:52 IST" duration-ms="3500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method signature="TC18_VerifyLoginWithSpacesBeforeAfterPassword()[pri:14, instance:testcases.LoginTest@a1153bc]" started-at="2025-04-28T21:33:52 IST" name="TC18_VerifyLoginWithSpacesBeforeAfterPassword" finished-at="2025-04-28T21:33:53 IST" duration-ms="1682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC18_VerifyLoginWithSpacesBeforeAfterPassword -->
+        <test-method is-config="true" signature="afterEachTest()[pri:0, instance:testcases.LoginTest@a1153bc]" started-at="2025-04-28T21:33:53 IST" name="afterEachTest" finished-at="2025-04-28T21:33:54 IST" duration-ms="564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method is-config="true" signature="tearDownBrowser()[pri:0, instance:testcases.LoginTest@a1153bc]" started-at="2025-04-28T21:33:54 IST" name="tearDownBrowser" finished-at="2025-04-28T21:33:54 IST" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownBrowser -->
+      </class> <!-- testcases.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
