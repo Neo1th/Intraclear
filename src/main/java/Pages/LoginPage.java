@@ -1,45 +1,43 @@
 package Pages;
 
+
 import java.util.Properties;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class LoginPage {
+public class LoginPage extends BasePage {
 
-    WebDriver driver;
-    Properties loc;
     
     public LoginPage(WebDriver driver, Properties loc) {
-        this.driver = driver;
-        this.loc = loc;
-  
+       super(driver,loc);
     }
 
-
-	public void enterUsername(String username) {
-        driver.findElement(By.xpath(loc.getProperty("Username"))).clear();
-        driver.findElement(By.xpath(loc.getProperty("Username"))).sendKeys(username);
+    public void enterUsername(String username) {
+        type("Username", username);
     }
 
     public void enterPassword(String password) {
-        driver.findElement(By.xpath(loc.getProperty("Password"))).clear();
-        driver.findElement(By.xpath(loc.getProperty("Password"))).sendKeys(password);
+        type("Password", password);
     }
 
     public void clickRememberMe() {
-        driver.findElement(By.xpath(loc.getProperty("Checkbox"))).click();
+        click("Checkbox");
     }
 
     public void clickLoginButton() {
-        driver.findElement(By.xpath(loc.getProperty("Loginbtn"))).click();
+        click("Loginbtn");
     }
-  
-    
-     public void logout() {
-    	 
-    	 driver.findElement(By.xpath("//a[@role='button']")).click();
-    	 driver.findElement(By.xpath("//a[normalize-space()='Logout']")).click();
-     }
-    
+
+    public void logout() {
+        click("ImageIcon");
+        click("Logoutbtn");
+    }
+
+    public void clickForgetPassword() {
+        click("ForgetPassword");
+    }
+
+    public void skipForNow() {
+        click("Skipfornowbtn");
+    }
     
 }

@@ -1,5 +1,6 @@
 package base;
 
+import java.io.FileInputStream;
 import java.io.FileReader;
 import java.io.IOException;
 import java.time.Duration;
@@ -8,7 +9,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
-import org.testng.annotations.*;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -19,6 +20,18 @@ public class BaseTest {
     public static Properties loc = new Properties();
     public static FileReader fr;
     public static FileReader fr1;
+	public String filepath="/Users/apple/eclipse-workspace/Intraclear/src/test/resources/testdata/Testdata.xlsx";
+
+    
+	@BeforeSuite
+	public void Propload() throws IOException {
+		
+		FileInputStream configFis = new FileInputStream("/Users/apple/eclipse-workspace/Intraclear/src/test/resources/configfiles/config.properties");
+		prop.load(configFis);
+		
+		FileInputStream locFis =new FileInputStream("/Users/apple/eclipse-workspace/Intraclear/src/test/resources/configfiles/locators.properties");
+		loc.load(locFis);
+	}
 
     @BeforeTest
     public void setUpBrowser() throws IOException {
@@ -39,7 +52,7 @@ public class BaseTest {
 
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
-        driver.get(prop.getProperty("testurl"));
+        driver.get(prop.getProperty("adminurl"));
     }
 
 
