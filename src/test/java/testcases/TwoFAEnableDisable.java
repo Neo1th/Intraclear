@@ -58,15 +58,7 @@ public class TwoFAEnableDisable extends BaseTest {
 		Thread.sleep(3000);
 		Twofa.clicksubmitcode();
 		Thread.sleep(2000);
-		
-		boolean isError = Twofa.getElement("Alertemptycode").isDisplayed();
-		Thread.sleep(2000);
-
-		
-		System.out.println(isError);
-
-		
-		Assert.assertTrue(isError);
+		Assert.assertTrue(Twofa.getElement("AlertEmptycode").isDisplayed());
 	}
 	
 	@Test(priority=6)
@@ -82,4 +74,7 @@ public class TwoFAEnableDisable extends BaseTest {
 		Twofa.clicksubmitcode();
 		Assert.assertTrue(Twofa.getElement("Alertinvalidcode").isDisplayed());
 	}
+	
+	
+	
 }
