@@ -20,7 +20,7 @@ public class BaseTest {
     public static Properties loc = new Properties();
     public static FileReader fr;
     public static FileReader fr1;
-	public String filepath="/Users/apple/eclipse-workspace/Intraclear/src/test/resources/testdata/Testdata.xlsx";
+	public String filepath="/Users/apple/eclipse-workspace/Intraclear/src/test/resources/testdata/TestdataIntraclear.xlsx";
 
     
 	@BeforeSuite

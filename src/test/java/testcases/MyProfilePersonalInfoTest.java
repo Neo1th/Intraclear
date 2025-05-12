@@ -10,14 +10,14 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.*;
 import Pages.LoginPage;
-import Pages.MyProfilePersonalInfo;
+import Pages.MyProfilePersonalInfoPage;
 import base.BaseTest;
 import utilities.ReadXls;
 
 public class MyProfilePersonalInfoTest extends BaseTest{
 	
 	LoginPage loginpage;
-	MyProfilePersonalInfo Myprofile;
+	MyProfilePersonalInfoPage Myprofile;
 	
 	
 	 @BeforeClass
@@ -29,7 +29,7 @@ public class MyProfilePersonalInfoTest extends BaseTest{
 	        loginpage.enterPassword("Sanket@73");
 	        loginpage.clickLoginButton();
 	        wait.until(ExpectedConditions.urlContains("dashboard"));
-	        Myprofile = new MyProfilePersonalInfo(driver,loc);
+	        Myprofile = new MyProfilePersonalInfoPage(driver,loc);
 		 
 	 }
 	 @BeforeMethod

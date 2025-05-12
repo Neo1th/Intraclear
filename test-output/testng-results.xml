@@ -1,165 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="17" passed="17" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-08T13:09:24 IST" name="Default suite" finished-at="2025-05-08T13:10:51 IST" duration-ms="87461">
+  <suite started-at="2025-05-09T18:24:13 IST" name="Default suite" finished-at="2025-05-09T18:24:38 IST" duration-ms="24765">
     <groups>
     </groups>
-    <test started-at="2025-05-08T13:09:24 IST" name="Default test" finished-at="2025-05-08T13:10:51 IST" duration-ms="87461">
-      <class name="testcases.MyProfilePasswordTest">
-        <test-method is-config="true" signature="Propload()[pri:0, instance:testcases.MyProfilePasswordTest@7b98f307]" started-at="2025-05-08T13:09:24 IST" name="Propload" finished-at="2025-05-08T13:09:24 IST" duration-ms="12" status="PASS">
+    <test started-at="2025-05-09T18:24:13 IST" name="Default test" finished-at="2025-05-09T18:24:38 IST" duration-ms="24765">
+      <class name="testcases.TwoFAEnableDisable">
+        <test-method is-config="true" signature="Propload()[pri:0, instance:testcases.TwoFAEnableDisable@368f2016]" started-at="2025-05-09T18:24:13 IST" name="Propload" finished-at="2025-05-09T18:24:13 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Propload -->
-        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:testcases.MyProfilePasswordTest@7b98f307]" started-at="2025-05-08T13:09:24 IST" name="setUpBrowser" finished-at="2025-05-08T13:09:30 IST" duration-ms="6382" status="PASS">
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:testcases.TwoFAEnableDisable@368f2016]" started-at="2025-05-09T18:24:13 IST" name="setUpBrowser" finished-at="2025-05-09T18:24:19 IST" duration-ms="6051" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method is-config="true" signature="loginbeforetest()[pri:0, instance:testcases.MyProfilePasswordTest@7b98f307]" started-at="2025-05-08T13:09:30 IST" name="loginbeforetest" finished-at="2025-05-08T13:09:33 IST" duration-ms="3023" status="PASS">
+        <test-method is-config="true" signature="loginbeforetest()[pri:0, instance:testcases.TwoFAEnableDisable@368f2016]" started-at="2025-05-09T18:24:19 IST" name="loginbeforetest" finished-at="2025-05-09T18:24:24 IST" duration-ms="4248" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginbeforetest -->
-        <test-method is-config="true" signature="load()[pri:0, instance:testcases.MyProfilePasswordTest@7b98f307]" started-at="2025-05-08T13:09:33 IST" name="load" finished-at="2025-05-08T13:09:36 IST" duration-ms="3018" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- load -->
-        <test-method signature="TC01()[pri:1, instance:testcases.MyProfilePasswordTest@7b98f307]" started-at="2025-05-08T13:09:36 IST" name="TC01" finished-at="2025-05-08T13:09:37 IST" duration-ms="708" status="PASS">
+        <test-method signature="TC01()[pri:1, instance:testcases.TwoFAEnableDisable@368f2016]" started-at="2025-05-09T18:24:24 IST" name="TC01" finished-at="2025-05-09T18:24:24 IST" duration-ms="589" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC01 -->
-        <test-method is-config="true" signature="load()[pri:0, instance:testcases.MyProfilePasswordTest@7b98f307]" started-at="2025-05-08T13:09:37 IST" name="load" finished-at="2025-05-08T13:09:40 IST" duration-ms="3007" status="PASS">
+        <test-method signature="TC02()[pri:2, instance:testcases.TwoFAEnableDisable@368f2016]" started-at="2025-05-09T18:24:24 IST" name="TC02" finished-at="2025-05-09T18:24:25 IST" duration-ms="878" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- load -->
-        <test-method signature="TC03()[pri:3, instance:testcases.MyProfilePasswordTest@7b98f307]" started-at="2025-05-08T13:09:40 IST" name="TC03" finished-at="2025-05-08T13:09:43 IST" duration-ms="2666" status="PASS">
+        </test-method> <!-- TC02 -->
+        <test-method signature="TC03()[pri:3, instance:testcases.TwoFAEnableDisable@368f2016]" started-at="2025-05-09T18:24:25 IST" name="TC03" finished-at="2025-05-09T18:24:25 IST" duration-ms="206" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC03 -->
-        <test-method is-config="true" signature="load()[pri:0, instance:testcases.MyProfilePasswordTest@7b98f307]" started-at="2025-05-08T13:09:43 IST" name="load" finished-at="2025-05-08T13:09:46 IST" duration-ms="3046" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- load -->
-        <test-method signature="TC04()[pri:4, instance:testcases.MyProfilePasswordTest@7b98f307]" started-at="2025-05-08T13:09:46 IST" name="TC04" finished-at="2025-05-08T13:09:47 IST" duration-ms="1271" status="PASS">
+        <test-method signature="TC04()[pri:4, instance:testcases.TwoFAEnableDisable@368f2016]" started-at="2025-05-09T18:24:25 IST" name="TC04" finished-at="2025-05-09T18:24:25 IST" duration-ms="148" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC04 -->
-        <test-method is-config="true" signature="load()[pri:0, instance:testcases.MyProfilePasswordTest@7b98f307]" started-at="2025-05-08T13:09:47 IST" name="load" finished-at="2025-05-08T13:09:50 IST" duration-ms="3003" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- load -->
-        <test-method signature="TC05()[pri:5, instance:testcases.MyProfilePasswordTest@7b98f307]" started-at="2025-05-08T13:09:50 IST" name="TC05" finished-at="2025-05-08T13:09:51 IST" duration-ms="1277" status="PASS">
+        <test-method signature="TC05()[pri:5, instance:testcases.TwoFAEnableDisable@368f2016]" started-at="2025-05-09T18:24:25 IST" name="TC05" finished-at="2025-05-09T18:24:33 IST" duration-ms="7347" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC05 -->
-        <test-method is-config="true" signature="load()[pri:0, instance:testcases.MyProfilePasswordTest@7b98f307]" started-at="2025-05-08T13:09:51 IST" name="load" finished-at="2025-05-08T13:09:54 IST" duration-ms="3021" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- load -->
-        <test-method signature="TC06()[pri:6, instance:testcases.MyProfilePasswordTest@7b98f307]" started-at="2025-05-08T13:09:54 IST" name="TC06" finished-at="2025-05-08T13:09:57 IST" duration-ms="2483" status="PASS">
+        <test-method signature="TC06()[pri:6, instance:testcases.TwoFAEnableDisable@368f2016]" started-at="2025-05-09T18:24:33 IST" name="TC06" finished-at="2025-05-09T18:24:37 IST" duration-ms="3999" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC06 -->
-        <test-method is-config="true" signature="load()[pri:0, instance:testcases.MyProfilePasswordTest@7b98f307]" started-at="2025-05-08T13:09:57 IST" name="load" finished-at="2025-05-08T13:10:00 IST" duration-ms="2808" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- load -->
-        <test-method signature="TC07()[pri:7, instance:testcases.MyProfilePasswordTest@7b98f307]" started-at="2025-05-08T13:10:00 IST" name="TC07" finished-at="2025-05-08T13:10:02 IST" duration-ms="2540" status="PASS">
+        <test-method signature="TC07()[pri:7, instance:testcases.TwoFAEnableDisable@368f2016]" started-at="2025-05-09T18:24:37 IST" name="TC07" finished-at="2025-05-09T18:24:38 IST" duration-ms="1015" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC07 -->
-        <test-method is-config="true" signature="load()[pri:0, instance:testcases.MyProfilePasswordTest@7b98f307]" started-at="2025-05-08T13:10:02 IST" name="load" finished-at="2025-05-08T13:10:06 IST" duration-ms="3198" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- load -->
-        <test-method signature="TC08()[pri:8, instance:testcases.MyProfilePasswordTest@7b98f307]" started-at="2025-05-08T13:10:06 IST" name="TC08" finished-at="2025-05-08T13:10:08 IST" duration-ms="2552" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC08 -->
-        <test-method is-config="true" signature="load()[pri:0, instance:testcases.MyProfilePasswordTest@7b98f307]" started-at="2025-05-08T13:10:08 IST" name="load" finished-at="2025-05-08T13:10:11 IST" duration-ms="3405" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- load -->
-        <test-method signature="TC09()[pri:9, instance:testcases.MyProfilePasswordTest@7b98f307]" started-at="2025-05-08T13:10:11 IST" name="TC09" finished-at="2025-05-08T13:10:13 IST" duration-ms="1231" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC09 -->
-        <test-method is-config="true" signature="load()[pri:0, instance:testcases.MyProfilePasswordTest@7b98f307]" started-at="2025-05-08T13:10:13 IST" name="load" finished-at="2025-05-08T13:10:16 IST" duration-ms="2836" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- load -->
-        <test-method signature="TC10()[pri:10, instance:testcases.MyProfilePasswordTest@7b98f307]" started-at="2025-05-08T13:10:16 IST" name="TC10" finished-at="2025-05-08T13:10:17 IST" duration-ms="1255" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC10 -->
-        <test-method is-config="true" signature="load()[pri:0, instance:testcases.MyProfilePasswordTest@7b98f307]" started-at="2025-05-08T13:10:17 IST" name="load" finished-at="2025-05-08T13:10:20 IST" duration-ms="3223" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- load -->
-        <test-method signature="TC11()[pri:11, instance:testcases.MyProfilePasswordTest@7b98f307]" started-at="2025-05-08T13:10:20 IST" name="TC11" finished-at="2025-05-08T13:10:21 IST" duration-ms="1216" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC11 -->
-        <test-method is-config="true" signature="load()[pri:0, instance:testcases.MyProfilePasswordTest@7b98f307]" started-at="2025-05-08T13:10:21 IST" name="load" finished-at="2025-05-08T13:10:24 IST" duration-ms="2925" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- load -->
-        <test-method signature="TC12()[pri:12, instance:testcases.MyProfilePasswordTest@7b98f307]" started-at="2025-05-08T13:10:24 IST" name="TC12" finished-at="2025-05-08T13:10:25 IST" duration-ms="1183" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC12 -->
-        <test-method is-config="true" signature="load()[pri:0, instance:testcases.MyProfilePasswordTest@7b98f307]" started-at="2025-05-08T13:10:25 IST" name="load" finished-at="2025-05-08T13:10:28 IST" duration-ms="2911" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- load -->
-        <test-method signature="TC13()[pri:13, instance:testcases.MyProfilePasswordTest@7b98f307]" started-at="2025-05-08T13:10:28 IST" name="TC13" finished-at="2025-05-08T13:10:29 IST" duration-ms="1140" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC13 -->
-        <test-method is-config="true" signature="load()[pri:0, instance:testcases.MyProfilePasswordTest@7b98f307]" started-at="2025-05-08T13:10:29 IST" name="load" finished-at="2025-05-08T13:10:33 IST" duration-ms="3132" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- load -->
-        <test-method signature="TC14()[pri:14, instance:testcases.MyProfilePasswordTest@7b98f307]" started-at="2025-05-08T13:10:33 IST" name="TC14" finished-at="2025-05-08T13:10:34 IST" duration-ms="1184" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC14 -->
-        <test-method is-config="true" signature="load()[pri:0, instance:testcases.MyProfilePasswordTest@7b98f307]" started-at="2025-05-08T13:10:34 IST" name="load" finished-at="2025-05-08T13:10:37 IST" duration-ms="3310" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- load -->
-        <test-method signature="TC15()[pri:15, instance:testcases.MyProfilePasswordTest@7b98f307]" started-at="2025-05-08T13:10:37 IST" name="TC15" finished-at="2025-05-08T13:10:38 IST" duration-ms="1165" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC15 -->
-        <test-method is-config="true" signature="load()[pri:0, instance:testcases.MyProfilePasswordTest@7b98f307]" started-at="2025-05-08T13:10:38 IST" name="load" finished-at="2025-05-08T13:10:42 IST" duration-ms="3344" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- load -->
-        <test-method signature="TC16()[pri:16, instance:testcases.MyProfilePasswordTest@7b98f307]" started-at="2025-05-08T13:10:42 IST" name="TC16" finished-at="2025-05-08T13:10:43 IST" duration-ms="1130" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC16 -->
-        <test-method is-config="true" signature="load()[pri:0, instance:testcases.MyProfilePasswordTest@7b98f307]" started-at="2025-05-08T13:10:43 IST" name="load" finished-at="2025-05-08T13:10:46 IST" duration-ms="3201" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- load -->
-        <test-method signature="TC17()[pri:17, instance:testcases.MyProfilePasswordTest@7b98f307]" started-at="2025-05-08T13:10:46 IST" name="TC17" finished-at="2025-05-08T13:10:47 IST" duration-ms="1140" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC17 -->
-        <test-method is-config="true" signature="load()[pri:0, instance:testcases.MyProfilePasswordTest@7b98f307]" started-at="2025-05-08T13:10:47 IST" name="load" finished-at="2025-05-08T13:10:50 IST" duration-ms="2968" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- load -->
-        <test-method signature="TC18()[pri:18, instance:testcases.MyProfilePasswordTest@7b98f307]" started-at="2025-05-08T13:10:50 IST" name="TC18" finished-at="2025-05-08T13:10:51 IST" duration-ms="1181" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC18 -->
-        <test-method is-config="true" signature="tearDownBrowser()[pri:0, instance:testcases.MyProfilePasswordTest@7b98f307]" started-at="2025-05-08T13:10:51 IST" name="tearDownBrowser" finished-at="2025-05-08T13:10:51 IST" duration-ms="266" status="PASS">
+        <test-method is-config="true" signature="tearDownBrowser()[pri:0, instance:testcases.TwoFAEnableDisable@368f2016]" started-at="2025-05-09T18:24:38 IST" name="tearDownBrowser" finished-at="2025-05-09T18:24:38 IST" duration-ms="215" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownBrowser -->
-      </class> <!-- testcases.MyProfilePasswordTest -->
+      </class> <!-- testcases.TwoFAEnableDisable -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

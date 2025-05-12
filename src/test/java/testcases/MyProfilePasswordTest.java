@@ -3,31 +3,30 @@ package testcases;
 import java.io.IOException;
 import java.time.Duration;
 import java.util.Map;
-
 import org.apache.poi.EncryptedDocumentException;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.*;
 import Pages.LoginPage;
-import Pages.MyProfilePassword;
+import Pages.MyProfilePasswordPage;
 import base.BaseTest;
 import utilities.ReadXls;
-import Pages.MyProfilePersonalInfo;
+import Pages.MyProfilePersonalInfoPage;
 
 
 public class MyProfilePasswordTest extends BaseTest{
 	
 	LoginPage loginpage;
-	MyProfilePassword Myprofilepass;
-	MyProfilePersonalInfo Myprofile;
+	MyProfilePasswordPage Myprofilepass;
+	MyProfilePersonalInfoPage Myprofile;
 	
 	@BeforeClass
 	public void loginbeforetest() {
 		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
 		loginpage =new LoginPage(driver,loc);
-		Myprofile=new MyProfilePersonalInfo(driver,loc);
-		Myprofilepass=new MyProfilePassword(driver,loc);	
+		Myprofile=new MyProfilePersonalInfoPage(driver,loc);
+		Myprofilepass=new MyProfilePasswordPage(driver,loc);	
 		loginpage.enterUsername("Sanket01");
 		loginpage.enterPassword("Sanket@73");
 		loginpage.clickLoginButton();

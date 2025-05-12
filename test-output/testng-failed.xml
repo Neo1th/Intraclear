@@ -3,22 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testcases.MyProfilePasswordTest">
+      <class name="testcases.TwoFAEnableDisable">
         <methods>
-          <include name="TC15"/>
           <include name="setUpBrowser"/>
-          <include name="load"/>
-          <include name="TC16"/>
-          <include name="TC08"/>
-          <include name="loginbeforetest"/>
           <include name="tearDownBrowser"/>
-          <include name="TC13"/>
-          <include name="TC09"/>
-          <include name="TC17"/>
+          <include name="loginbeforetest"/>
+          <include name="TC05"/>
           <include name="Propload"/>
-          <include name="TC10"/>
         </methods>
-      </class> <!-- testcases.MyProfilePasswordTest -->
+      </class> <!-- testcases.TwoFAEnableDisable -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

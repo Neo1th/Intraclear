@@ -3,9 +3,9 @@ package Pages;
 import java.util.Properties;
 import org.openqa.selenium.WebDriver;
 
-public class MyProfilePassword extends BasePage {
+public class MyProfilePasswordPage extends BasePage {
 
-	public MyProfilePassword(WebDriver driver, Properties loc) {
+	public MyProfilePasswordPage(WebDriver driver, Properties loc) {
 		super(driver, loc);
 		
 	}

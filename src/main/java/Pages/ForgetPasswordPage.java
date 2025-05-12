@@ -3,11 +3,9 @@ package Pages;
 import java.util.Properties;
 import org.openqa.selenium.WebDriver;
 
-public class ForgetPassword extends BasePage{
+public class ForgetPasswordPage extends BasePage{
 	
-
-
-	public ForgetPassword(WebDriver driver, Properties loc) {
+	public ForgetPasswordPage(WebDriver driver, Properties loc) {
 		super(driver,loc);
 	}
 	

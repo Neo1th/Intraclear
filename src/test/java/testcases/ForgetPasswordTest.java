@@ -10,20 +10,20 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import Pages.ForgetPassword;
+import Pages.ForgetPasswordPage;
 import base.BaseTest;
 import utilities.ReadXls;
 
 public class ForgetPasswordTest extends BaseTest {
 	
-	 ForgetPassword forgetpassword;
+	 ForgetPasswordPage forgetpassword;
 	 WebDriverWait wait;
 	 
 	  @BeforeMethod
 	    public void initPage() throws InterruptedException {
 	    	Thread.sleep(2000);  
 	        driver.get(prop.getProperty("adminurl"));
-	        forgetpassword=new ForgetPassword(driver,loc);
+	        forgetpassword=new ForgetPasswordPage(driver,loc);
 	        forgetpassword.clickForgetpassword();
 	        wait=new WebDriverWait(driver,Duration.ofSeconds(10));
 	   }  

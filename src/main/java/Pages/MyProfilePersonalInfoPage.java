@@ -4,13 +4,13 @@ import java.util.Properties;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class MyProfilePersonalInfo extends BasePage {
+public class MyProfilePersonalInfoPage extends BasePage {
 	
 	WebDriver driver;
 	Properties loc;
 	WebDriverWait wait;
 	
-	    public MyProfilePersonalInfo(WebDriver driver, Properties loc) {
+	    public MyProfilePersonalInfoPage(WebDriver driver, Properties loc) {
 	        super(driver,loc);
 	  
 	    }
@@ -35,7 +35,7 @@ public class MyProfilePersonalInfo extends BasePage {
 	   }
 	
 	   public void Click2FATab() {
-         click("TwoFaTab");
+         click("TwoFATab");
 	   }
 	   
 	   public void enterName(String name){
