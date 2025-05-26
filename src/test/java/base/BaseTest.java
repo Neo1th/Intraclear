@@ -8,6 +8,7 @@ import java.util.Properties;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
@@ -20,7 +21,8 @@ public class BaseTest {
     public static Properties loc = new Properties();
     public static FileReader fr;
     public static FileReader fr1;
-	public String filepath="/Users/apple/eclipse-workspace/Intraclear/src/test/resources/testdata/TestdataIntraclear.xlsx";
+	public String filepath="/Users/apple/eclipse-workspace/Intraclear/src/test/resources/testdata/Testdata -Intraclear.xlsx";
+    public WebDriverWait wait;
 
     
 	@BeforeSuite
@@ -51,7 +53,7 @@ public class BaseTest {
         }
 
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.get(prop.getProperty("adminurl"));
     }
 

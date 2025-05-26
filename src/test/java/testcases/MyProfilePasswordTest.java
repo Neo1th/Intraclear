@@ -23,7 +23,7 @@ public class MyProfilePasswordTest extends BaseTest{
 	
 	@BeforeClass
 	public void loginbeforetest() {
-		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
+		wait = new WebDriverWait(driver,Duration.ofSeconds(10));
 		loginpage =new LoginPage(driver,loc);
 		Myprofile=new MyProfilePersonalInfoPage(driver,loc);
 		Myprofilepass=new MyProfilePasswordPage(driver,loc);	

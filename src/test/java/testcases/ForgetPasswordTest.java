@@ -17,7 +17,6 @@ import utilities.ReadXls;
 public class ForgetPasswordTest extends BaseTest {
 	
 	 ForgetPasswordPage forgetpassword;
-	 WebDriverWait wait;
 	 
 	  @BeforeMethod
 	    public void initPage() throws InterruptedException {

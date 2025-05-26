@@ -19,7 +19,6 @@ import utilities.ReadXls;
 public class LoginTest extends BaseTest {
 
     LoginPage loginPage;
-    WebDriverWait wait;
     
     @BeforeMethod
     public void initPage() throws InterruptedException {
@@ -94,7 +93,6 @@ public class LoginTest extends BaseTest {
 
     @Test(priority = 6)
     public void TC06_LoginWithEmptyUsername() {
-       
         
     	loginFromExcelRow(4);
         Assert.assertTrue(loginPage.getElement("ErrorUsername").isDisplayed());  

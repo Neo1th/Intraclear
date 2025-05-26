@@ -22,7 +22,7 @@ public class MyProfilePersonalInfoTest extends BaseTest{
 	
 	 @BeforeClass
 	 public void loginbeforetest() throws InterruptedException {
-		 WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		    wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		    driver.get(prop.getProperty("adminurl"));
 	        loginpage = new LoginPage(driver, loc);
 	        loginpage.enterUsername("Sanket01");
